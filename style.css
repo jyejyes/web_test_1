@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600&family=IBM+Plex+Sans+KR:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600&family=IBM+Plex+Sans+KR:wght@300&display=swap');
 
 :root{
     /* color */
@@ -199,6 +199,7 @@ p{
     height: 80%;
     margin: var(--page-tb-margin) var(--page-lr-margin);
     color: var(--color-black);
+    align-items: flex-start;
 }
 
 .second-page .descrip_title{
@@ -212,7 +213,22 @@ p{
     width: 100%;
     font-family: 'IBM Plex Sans KR', sans-serif;
     padding: var(--default-padding);
+    margin-top: 9px;
+    margin-right:15px;
 }
+
+.second-page i{
+    color: var(--color-orange);
+    font-size: var(--medium-font);
+}
+
+#aboutus{
+    color: var(--color-orange);
+    font-size: var(--small-font);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: var(--color-orange);
+}
+
 
 
 
